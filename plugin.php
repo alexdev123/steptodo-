@@ -38,7 +38,7 @@ switch ($cmd) {
 	case "tapcmd": 
 	$cmd = implode(" ", $params);
 	$this->picked[$issuer->username] = $cmd;
-	$issuer->sendChat("Tap a block to add the command!");
+	$issuer->sendChat("Tap a block to add the command! :)");
 break;
 		default:
 	$issuer->sendChat("Error!");
